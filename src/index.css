@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card-jobs{
+  width: 50%;
+  margin-left:25%;
+  margin-right:40%;
+}
+
+.card-form{
+  margin-left:5%;
+}
+
+
+.card-form input[type="submit"]{
+  margin-left:5%
+}
+
+.card-form p{
+  margin-left:5%;
 }
