@@ -1,15 +1,18 @@
 import './App.css';
-import data from './jobs_welovedevs_exerice.json';
+import React from 'react';
+import Home from "./pages/Home";
+import {BrowserRouter, Switch, Route} from "react-router-dom";
 
 
 function App() {
   return (
-    <div className="App">
-      {data.map(data => (
-          <p key={data.companyId}>{data.title}</p>
-      ))}
+      <BrowserRouter>
 
-    </div>
+          <Switch>
+              <Route path="/" exact component={Home} />
+          </Switch>
+
+      </BrowserRouter>
   );
 }
 
