@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       {data.map(data => (
-          <li key={data.companyId}>{data.description}</li>
+          <p key={data.companyId}>{data.title}</p>
       ))}
 
     </div>
